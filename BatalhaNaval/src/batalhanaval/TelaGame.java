@@ -2265,7 +2265,7 @@ public class TelaGame extends javax.swing.JFrame {
                 if (answer_right[i][j] == 1) {
                     if (grid[i][j] == 8 || grid[i][j] == 7) {
                         System.out.println("Got here " + grid[i][j]);
-                        ImageIcon icon = new ImageIcon("src/imagens/uniqueShip1.jpg");
+                        ImageIcon icon = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip1.jpg"));
                         // mudando para branco
                         // getSquare(i+1, j+1).setBackground(Color.WHITE);
                         // getSquare(i+1, j+1).setOpaque(true);
@@ -2294,10 +2294,10 @@ public class TelaGame extends javax.swing.JFrame {
                     } else if (grid[i][j] == 6) {
 
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip2HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip2HB.jpg");
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip2VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip2VB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2HF.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2HB.jpg"));
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2VF.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2VB.jpg"));
 
                         // variavel para verificar se alterou o numero de navios achados, se sim, atualizar numero na tela
                         boolean alterou = false;
@@ -2326,10 +2326,10 @@ public class TelaGame extends javax.swing.JFrame {
                     } else if (grid[i][j] == 5) {
 
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip2HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip2HB.jpg");
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip2VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip2VB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2HF.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2HB.jpg"));
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2VF.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip2VB.jpg"));
 
                         boolean alterou = false;
                         // verificando se o barco é horizontal para barco id 5
@@ -2355,12 +2355,12 @@ public class TelaGame extends javax.swing.JFrame {
 
                     } else if (grid[i][j] == 4) {
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip3HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip3HM.jpg");
-                        ImageIcon icon3H = new ImageIcon("src/imagens/uniqueShip3HB.jpg");
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip3VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip3VM.jpg");
-                        ImageIcon icon3V = new ImageIcon("src/imagens/uniqueShip3VB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HF.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HM.jpg"));
+                        ImageIcon icon3H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HB.jpg"));
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VF.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VM.jpg"));
+                        ImageIcon icon3V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VB.jpg"));
 
                         boolean alterou = false;
                         // verificando se o barco é horizontal para id 4
@@ -2392,12 +2392,12 @@ public class TelaGame extends javax.swing.JFrame {
 
                     } else if (grid[i][j] == 3) {
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip3HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip3HM.jpg");
-                        ImageIcon icon3H = new ImageIcon("src/imagens/uniqueShip3HB.jpg");
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip3VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip3VM.jpg");
-                        ImageIcon icon3V = new ImageIcon("src/imagens/uniqueShip3VB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HF.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HM.jpg"));
+                        ImageIcon icon3H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3HB.jpg"));
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VF.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VM.jpg"));
+                        ImageIcon icon3V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip3VB.jpg"));
 
                         boolean alterou = false;
                         // verificando se o barco é horizontal para id 3
@@ -2427,15 +2427,15 @@ public class TelaGame extends javax.swing.JFrame {
                         }
                     } else if (grid[i][j] == 2) {
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip4HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip4HM1.jpg");
-                        ImageIcon icon3H = new ImageIcon("src/imagens/uniqueShip4HM2.jpg");
-                        ImageIcon icon4H = new ImageIcon("src/imagens/uniqueShip4HB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip4hf.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip4HM1.jpg"));
+                        ImageIcon icon3H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip4HM2.jpg"));
+                        ImageIcon icon4H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip4HB.jpg"));
 
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip4VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip4VM1.jpg");
-                        ImageIcon icon3V = new ImageIcon("src/imagens/uniqueShip4VM2.jpg");
-                        ImageIcon icon4V = new ImageIcon("src/imagens/uniqueShip4VB.jpg");
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueship4vf.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueship4vm1.jpg"));
+                        ImageIcon icon3V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueship4vm2.jpg"));
+                        ImageIcon icon4V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueship4Vb.jpg"));
 
                         boolean alterou = false;
                         // verificando se o barco é horizontal
@@ -2471,17 +2471,17 @@ public class TelaGame extends javax.swing.JFrame {
                         }
                     } else if (grid[i][j] == 1) {
                         // obtendo icones
-                        ImageIcon icon1H = new ImageIcon("src/imagens/uniqueShip5HF.jpg");
-                        ImageIcon icon2H = new ImageIcon("src/imagens/uniqueShip5HM1.jpg");
-                        ImageIcon icon3H = new ImageIcon("src/imagens/uniqueShip5HM2.jpg");
-                        ImageIcon icon4H = new ImageIcon("src/imagens/uniqueShip5HM3.jpg");
-                        ImageIcon icon5H = new ImageIcon("src/imagens/uniqueShip5HB.jpg");
+                        ImageIcon icon1H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5HF.jpg"));
+                        ImageIcon icon2H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5HM1.jpg"));
+                        ImageIcon icon3H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5HM2.jpg"));
+                        ImageIcon icon4H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5HM3.jpg"));
+                        ImageIcon icon5H = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5HB.jpg"));
 
-                        ImageIcon icon1V = new ImageIcon("src/imagens/uniqueShip5VF.jpg");
-                        ImageIcon icon2V = new ImageIcon("src/imagens/uniqueShip5VM1.jpg");
-                        ImageIcon icon3V = new ImageIcon("src/imagens/uniqueShip5VM2.jpg");
-                        ImageIcon icon4V = new ImageIcon("src/imagens/uniqueShip5VM3.jpg");
-                        ImageIcon icon5V = new ImageIcon("src/imagens/uniqueShip5VB.jpg");
+                        ImageIcon icon1V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5VF.jpg"));
+                        ImageIcon icon2V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5VM1.jpg"));
+                        ImageIcon icon3V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5VM2.jpg"));
+                        ImageIcon icon4V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5VM3.jpg"));
+                        ImageIcon icon5V = new javax.swing.ImageIcon(getClass().getResource("/imagens/uniqueShip5VB.jpg"));
 
                         boolean alterou = false;
                         // verificando se o barco é horizontal
@@ -2541,7 +2541,7 @@ public class TelaGame extends javax.swing.JFrame {
                         nomeBarcos.setText(nomeBarcos.getText() + "Sapatinho\n");
                     } else if (grid[i][j] == 8) {
                         // nomeBarcos.setText(nomeBarcos.getText() + "Criança X\n");
-                        JLabel kid = new JLabel("Criança X");
+                        JLabel kid = new JLabel("Isis");
                         kid.setFont(new Font("Arial", Font.BOLD, 40));
                         kid.setHorizontalAlignment(SwingConstants.CENTER);
                         JOptionPane.showMessageDialog(this, kid, "Alerta", JOptionPane.PLAIN_MESSAGE);

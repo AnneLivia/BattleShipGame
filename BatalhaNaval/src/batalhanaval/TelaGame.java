@@ -2275,7 +2275,7 @@ public class TelaGame extends javax.swing.JFrame {
                             mover_barco(i, j);
                             qtd_acertos++;
                             answer_right[i][j] = 0;
-                            nomeBarcos.setText(nomeBarcos.getText() + "Acertou\n");
+                            nomeBarcos.setText(nomeBarcos.getText() + "Acertou Barco Premiado\n");
                         } else {
                             getSquare(i+1, j+1).setIcon(icon);
                         }
@@ -2526,22 +2526,22 @@ public class TelaGame extends javax.swing.JFrame {
                     answer_right[i][j] = 2;
                     // inserindo nome dos barcos 
                     if (grid[i][j] == 1) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Kit Alimentação\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 1\n");
                     } else if (grid[i][j] == 2) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Banheira\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 2\n");
                     } else if (grid[i][j] == 3) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Fralda\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 3\n");
                     } else if (grid[i][j] == 4) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Kit higiene\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 4\n");
                     } else if (grid[i][j] == 5) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Roupinha\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 5\n");
                     } else if (grid[i][j] == 6) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Brinquedo\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 6\n");
                     } else if (grid[i][j] == 7) {
-                        nomeBarcos.setText(nomeBarcos.getText() + "Sapatinho\n");
+                        nomeBarcos.setText(nomeBarcos.getText() + "Barco 7\n");
                     } else if (grid[i][j] == 8) {
                         // nomeBarcos.setText(nomeBarcos.getText() + "Criança X\n");
-                        JLabel kid = new JLabel("Isis");
+                        JLabel kid = new JLabel("Barco Premiado");
                         kid.setFont(new Font("Arial", Font.BOLD, 40));
                         kid.setHorizontalAlignment(SwingConstants.CENTER);
                         JOptionPane.showMessageDialog(this, kid, "Alerta", JOptionPane.PLAIN_MESSAGE);

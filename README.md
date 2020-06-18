@@ -2,7 +2,6 @@
 ## Simple battleship game developed using Java Programming language
 ## Information About the game:
  - 8 Ships of sizes from 1 to 5 squares
- - Game finishes when find all ships
  - Game designed for only one player
  - All ships are placed randomly 
  - Version one of the game doesn't contain the name of the ships, whereas version 2 contains it.
